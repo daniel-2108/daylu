@@ -44,6 +44,8 @@ h1 {
 }
 
 img#q{
+    width: 30vw;
+    margin: 25px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 25px;
     font-family: sans-serif;
@@ -54,11 +56,11 @@ img#q{
     max-width: 50%;
     max-height: 50%;
     padding: 20px 40px;
-    height: 700px;
-    margin: 25px;
 }
 
 img#w{
+    width: 30vw;
+    margin: 25px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 25px;
     font-family: sans-serif;
@@ -69,8 +71,6 @@ img#w{
     max-width: 50%;
     max-height: 50%;
     padding: 20px 40px;
-    height: 700px;
-    margin: 25px;
 }
 
 footer {

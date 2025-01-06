@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/lovelyn');
+@import url("https://fonts.cdnfonts.com/css/lovelyn");
 
 * {
   padding: 0%;
@@ -11,11 +11,28 @@ body {
   background-image: url(https://i.ibb.co/JtRqgSV/Imagen-de-Whats-App-2025-01-05-a-las-19-37-57-d76bafad.jpg);
 }
 
-div#q {
-  position: absolute;
-  top: 5vh;
-  left: 2.5vw;
-  width: 90vw;
+
+header {
+    margin: 20px;
+    position: relative;
+  
+    flex-direction: column;
+    -ms-flex-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    text-align: center;
+  }
+
+h1 {
+  position: relative;
+  margin: 20px;
+  text-align: center;
+  font-family: "Lovelyn", sans-serif;
+  font-size: 4cm;
   flex-direction: column;
   -ms-flex-align: center;
   background-color: rgba(255, 255, 255, 0.3);
@@ -26,39 +43,18 @@ div#q {
   padding: 20px 40px;
 }
 
-div#w{
-    position: absolute;
-    top: 30vh;
-    left: 2.5vw;
-    width: 90vw;
-    flex-direction: column;
-    -ms-flex-align: center;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 20px;
-    line-height: 1;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    padding: 20px 40px;
-  }
+footer {
+  margin: 20px;
+  position: relative;
 
-h1#q {
+  flex-direction: column;
+  -ms-flex-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+
   text-align: center;
-  font-family: 'Lovelyn', sans-serif;
-  font-size: 4cm;
-}
- 
-h1{
-    text-align: center;
-}
-
-h2{
-    text-align: center;   
-}
-
-h3{
-    text-align: center;
-}
-
-p{
-    text-align: center;
 }

@@ -8,27 +8,13 @@
 body {
   padding: 0%;
   margin: 0%;
-  background-image: url(https://i.ibb.co/JtRqgSV/Imagen-de-Whats-App-2025-01-05-a-las-19-37-57-d76bafad.jpg);
+  background-image: url(https://marketplace.canva.com/EAFYxMletq8/1/0/1600w/canva-fondo-de-pantalla-figuras-abstractas-rosa-LIgGZSYmuXE.jpg);
 }
 
 section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-header {
-  margin: 20px;
-  position: relative;
-  flex-direction: column;
-  -ms-flex-align: center;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 25px;
-  line-height: 1;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  padding: 20px 35px;
-  text-align: center;
 }
 
 h1 {
@@ -47,6 +33,20 @@ h1 {
   padding: 20px 40px;
 }
 
+header {
+  margin: 20px;
+  position: relative;
+  flex-direction: column;
+  -ms-flex-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 20px 35px;
+  text-align: center;
+}
+
 div {
   width: 28vw;
   margin: 20px;
@@ -63,7 +63,7 @@ div {
 }
 
 img {
-  width: 26vw;
+  width: 12vw;
   margin: 10px;
   border-radius: 25px;
   margin: 0 auto;
@@ -79,4 +79,50 @@ footer {
   backdrop-filter: blur(10px);
   padding: 20px 40px;
   text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.footer-social-icons {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-instagram {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fa-instagram:hover {
+  background-color: #ff0088;
 }
